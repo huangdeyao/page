@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    />
+    <title>哈尼族-民族文化</title>
+    <link
+            href="./style.css"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<header class="page-header">
+    <div class="container">
+        <h1 class="site-name">哈尼族</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="histroy.html">起源和历史</a></li>
+                <li><a href="costume.html">民族服饰</a></li>
+                <li><a class="active" href="culture.html">民族文化</a></li>
+                <li><a href="festivals.html">民族节日</a></li>
+            </ul>
+        </nav>
+        <button class="menu">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    fill="#000000"
+            >
+                <path
+                        d="M0 0h24v24H0V0z"
+                        fill="none"
+                />
+                <path
+                        d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"
+                />
+            </svg>
+        </button>
+        <script type="text/javascript">
+            const menu = document.querySelector(".page-header .menu")
+            const container = document.querySelector(
+                ".page-header .container"
+            )
+            menu.addEventListener("click", () => {
+                if (container.classList.contains("expanded")) {
+                    container.classList.remove("expanded")
+                } else {
+                    container.classList.add("expanded")
+                }
+            })
+        </script>
+    </div>
+</header>
+<main>
+    <!--    </section>-->
+    <div class="banner">
+        <img src="./images/t1.jpg"/>
+        <div class="text1">
+            <p style="font-size: 56px;color: white">哈尼族名族文化</p>
+            <p style="padding-left: 25%;padding-right: 25%">
+                哈尼族能歌善舞。乐器有三弦、四弦、巴乌、笛子、响篾、葫芦笙等。“巴乌”是哈尼族特有的乐器，用竹管制成，长六、七寸，7个孔，吹的一端加个鸭嘴形的扁头，音色深沉而柔美。舞蹈有“三弦舞”、“拍手舞”、“扇子舞”、“木雀舞”、“乐作舞”、“葫芦笙舞”等。流行在西双版纳地区的“冬波嵯舞”，舞姿健美，节奏明快，气氛浓烈，具有浓厚的民族特色，是群众喜爱的一种舞蹈形式。</p>
+        </div>
+    </div>
+
+
+    <section class="feature">
+        <div class="container">
+            <p>哈尼族的传统体育项目有独绳秋千、打陀螺、爬杆、射弩、抢拔竹签、撑杆跳高、蔑帽舞、拔河等。</p>
+            <div style="border-bottom:1px solid #CCC;margin: 2% 35% 0 35% ;"></div>
+        </div>
+        <div class="container">
+<!--            <div style="border-bottom:1px solid #CCC;margin: 5% 35% 5% 35% ;"></div>-->
+            <img src="./images/t10.png" style="width: 60%"/>
+        </div>
+
+        <div class="container">
+<!--            <div style="border-bottom:1px solid #CCC;margin: 5% 35% 5% 35% ;"></div>-->
+            <img src="./images/t11.png" style="width: 60%"/>
+        </div>
+        <div class="container">
+<!--            <div style="border-bottom:1px solid #CCC;margin: 5% 35% 5% 35% ;"></div>-->
+            <img src="./images/t12.png" style="width: 60%"/>
+        </div>
+    </section>
+</main>
+<footer class="page-footer">
+    <div class="bottom">
+        <div class="container">
+            <p>© 中央民族大学 新闻与传播 22级非全日制 陈欣 22301283</p>
+            <ul>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">服务协议</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    />
+    <title>哈尼族-民族节日</title>
+    <link
+            href="./style.css"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<header class="page-header">
+    <div class="container">
+        <h1 class="site-name">哈尼族</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="histroy.html">起源和历史</a></li>
+                <li><a href="costume.html">民族服饰</a></li>
+                <li><a href="culture.html">民族文化</a></li>
+                <li><a class="active" href="festivals.html">民族节日</a></li>
+            </ul>
+        </nav>
+        <button class="menu">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    fill="#000000"
+            >
+                <path
+                        d="M0 0h24v24H0V0z"
+                        fill="none"
+                />
+                <path
+                        d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"
+                />
+            </svg>
+        </button>
+        <script type="text/javascript">
+            const menu = document.querySelector(".page-header .menu")
+            const container = document.querySelector(
+                ".page-header .container"
+            )
+            menu.addEventListener("click", () => {
+                if (container.classList.contains("expanded")) {
+                    container.classList.remove("expanded")
+                } else {
+                    container.classList.add("expanded")
+                }
+            })
+        </script>
+    </div>
+</header>
+<main>
+    <div class="banner">
+        <img src="./images/t1.jpg"/>
+        <div class="text1">
+            <p style="font-size: 56px;color: white">六月年（苦扎扎）</p>
+            <p style="padding-left: 25%;padding-right: 25%">
+                哈尼族一个传统的农业生产的节日，节日期间杀牛（黄牛）祭祀，祭天神、土地神和祖先神。牛肉平均分配，集体安排生活。五月、六月村里容易发生疾病，田间容易遭受虫害，因而清扫水井，夜晚点燃松明火把，照亮屋内，驱赶邪恶，火把插到田间路旁，送走瘟神。苦扎扎节日期间开展各种文体活动。</p>
+        </div>
+    </div>
+
+    <section class="feature">
+        <div class="container">
+            <p>十月年</p>
+            <div style="border-bottom:1px solid #CCC;margin: 5% 35% 5% 35% ;"></div>
+            <img src="./images/syn.png" style="width: 60%"/>
+        </div>
+
+        <div class="container">
+            <p>嘎汤帕节</p>
+            <div style="border-bottom:1px solid #CCC;margin: 5% 35% 5% 35% ;"></div>
+            <img src="./images/pj.png" style="width: 60%"/>
+        </div>
+        <div class="container">
+            <p>耶苦扎</p>
+            <div style="border-bottom:1px solid #CCC;margin: 5% 35% 5% 35% ;"></div>
+            <img src="./images/kz.png" style="width: 60%"/>
+        </div>
+    </section>
+</main>
+<footer class="page-footer">
+    <div class="bottom">
+        <div class="container">
+            <p>© 中央民族大学 新闻与传播 22级非全日制 陈欣 22301283</p>
+            <ul>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">服务协议</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
